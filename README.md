@@ -1,4 +1,4 @@
-# Programa para listar y registrar productos
+# Programa para listar y registrar productos v1.0.0
 
 ## Descripción
 
@@ -39,6 +39,7 @@ api-productos/
 ├── OpenAPI.yaml
 ├── README.md
 └── app.py
+└── CHANGELOG.md
 ```
 
 ## Requisitos Previos
