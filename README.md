@@ -34,10 +34,11 @@ Este proyecto utiliza GitHub para el control de versiones, Jira para la gestión
 ```text
 api-productos/
 │
-├── app.py
+├── .gitignore
+├── LICENSE
 ├── OpenAPI.yaml
 ├── README.md
-└── requirements.txt
+└── app.py
 ```
 
 ## Requisitos Previos
