@@ -1,4 +1,4 @@
-# Programa para listar y regitsrar productos
+# Programa para listar y registrar productos
 
 ## Descripción
 
