@@ -1,0 +1,50 @@
+openapi: 3.0.3
+
+info:
+  title: API de Productos
+  description: API simple para registrar y listar productos
+  version: 1.0.0
+
+servers:
+  - url: smartproducts.com
+
+paths:
+  /productos:
+    get:
+      summary: Listar productos
+      description: Obtiene la lista de productos registrados.
+      responses:
+        '200':
+          description: Lista de productos obtenida correctamente
+
+    post:
+      summary: Registrar producto
+      description: Registra un nuevo producto en el sistema.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Producto'
+      responses:
+        '201':
+          description: Producto registrado correctamente
+
+components:
+  schemas:
+    Producto:
+      type: object
+      required:
+        - nombre
+        - precio
+        - stock
+      properties:
+        nombre:
+          type: string
+          Producto: Mouse Gamer
+        precio:
+          type: number
+          Producto: 25.99
+        stock:
+          type: integer
+          Cantidad: 15
