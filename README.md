@@ -39,6 +39,7 @@ api-productos/
 ├── OpenAPI.yaml
 ├── README.md
 └── app.py
+└── CHANGELOG.md
 ```
 
 ## Requisitos Previos
